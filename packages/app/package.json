@@ -1,0 +1,32 @@
+{
+  "name": "@rms/app",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "francosioquim <francosioquim@gmail.com>",
+  "homepage": "https://github.com/francosioquim/react-monorepo-sandbox#readme",
+  "license": "ISC",
+  "main": "src/index.jsx",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": "git+https://github.com/francosioquim/react-monorepo-sandbox.git",
+  "scripts": {
+    "build": "neutrino build",
+    "start": "neutrino start",
+    "lint": "neutrino lint",
+    "test": "neutrino test"
+  },
+  "bugs": {
+    "url": "https://github.com/francosioquim/react-monorepo-sandbox/issues"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.12.8"
+  }
+}
